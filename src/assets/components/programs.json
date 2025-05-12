@@ -1,42 +1,54 @@
 {
-    "Windows": [
-      {
-        "name": "Adobe Premiere Pro 2025 (v25.2.3.004)",
-        "description": "Video editing that’s always a cut above",
-        "class" : "Video Editors",
-        "image": "https://cdn-icons-png.flaticon.com/128/5968/5968525.png",
-        "download":"magnet:?xt=urn:btih:7ef0346143bd34811519ecc61bc34c9fe58bab78&tr=http%3A%2F%2Fuztracker.net%2Fbt%2Fannounce.php%3Fuk%3DdAQCiK8Euf4qtV3GvOYI&dn=Adobe+Photoshop+2025+%28v26.6.1%29+Multilingual"
-      },
-      {
-        "name": "Adobe Photoshop 2025 (v26.6.1.7)",
-        "description": "AI Art Generative Fill – Adobe Firefly - Neural Filters",
-        "class" : "Graphics & Design",
-        "image": "https://cdn-icons-png.flaticon.com/128/5968/5968520.png",
-        "download":"magnet:?xt=urn:btih:7ef0346143bd34811519ecc61bc34c9fe58bab78&tr=http%3A%2F%2Fuztracker.net%2Fbt%2Fannounce.php%3Fuk%3DdAQCiK8Euf4qtV3GvOYI&dn=Adobe+Photoshop+2025+%28v26.6.1%29+Multilingual"
-      },
-      {
-        "name": "Office 2013-2024",
-        "description": "For installation and activation of Microsoft Office",
-        "class" : "Tools & Utilities",
-        "image": "https://cdn-icons-png.flaticon.com/128/732/732222.png",
-        "download":"magnet:?xt=urn:btih:CC8EFAE9F67B60AC4515B3F020927B561F1D538D&dn=Microsoft%20Office%20Pro%20Plus%202021%20VL%20v2410%20Build%2018129.20158%20Multilingual%20%5bFileCR%5d&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.coppersurfer.tk%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.leechers-paradise.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.zer0day.to%3a1337%2fannounce&tr=udp%3a%2f%2feddie4.nl%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.open-internet.nl%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=wss%3a%2f%2fwstracker.online"
-      }
-    ],
-    "Mac": [
-      { "name": "Mac Program 1", "description": "Description for Mac program 1" },
-      { "name": "Mac Program 2", "description": "Description for Mac program 2" }
-    ],
-    "Android Apps": [
-      { "name": "Android App 1", "description": "Description for Android App 1" },
-      { "name": "Android App 2", "description": "Description for Android App 2" }
-    ],
-    "Android Games": [
-      { "name": "Android Game 1", "description": "Description for Android Game 1" },
-      { "name": "Android Game 2", "description": "Description for Android Game 2" }
-    ],
-    "PC Games": [
-      { "name": "PC Game 1", "description": "Description for PC Game 1" },
-      { "name": "PC Game 2", "description": "Description for PC Game 2" }
-    ]
-  }
-  
+  "Windows": [
+    {
+      "name": "Adobe Premiere Pro 2025 (v25.2.3.004)",
+      "description": "Video editing that’s always a cut above",
+      "class": "Video Editors",
+      "image": "https://cdn-icons-png.flaticon.com/128/5968/5968525.png",
+      "download": "magnet:?xt=urn:btih:7ef0346143bd34811519ecc61bc34c9fe58bab78&tr=http%3A%2F%2Fuztracker.net%2Fbt%2Fannounce.php%3Fuk%3DdAQCiK8Euf4qtV3GvOYI&dn=Adobe+Photoshop+2025+%28v26.6.1%29+Multilingual"
+    },
+    {
+      "name": "Adobe Photoshop 2025 (v26.6.1.7)",
+      "description": "AI Art Generative Fill – Adobe Firefly - Neural Filters",
+      "class": "Graphics & Design",
+      "image": "https://cdn-icons-png.flaticon.com/128/5968/5968520.png",
+      "download": "magnet:?xt=urn:btih:7ef0346143bd34811519ecc61bc34c9fe58bab78&tr=http%3A%2F%2Fuztracker.net%2Fbt%2Fannounce.php%3Fuk%3DdAQCiK8Euf4qtV3GvOYI&dn=Adobe+Photoshop+2025+%28v26.6.1%29+Multilingual"
+    },
+    {
+      "name": "Office 2013-2024",
+      "description": "For installation and activation of Microsoft Office",
+      "class": "Tools & Utilities",
+      "image": "https://cdn-icons-png.flaticon.com/128/732/732222.png",
+      "download": "magnet:?xt=urn:btih:CC8EFAE9F67B60AC4515B3F020927B561F1D538D&dn=Microsoft%20Office%20Pro%20Plus%202021%20VL%20v2410%20Build%2018129.20158%20Multilingual%20%5bFileCR%5d&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.coppersurfer.tk%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.leechers-paradise.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.zer0day.to%3a1337%2fannounce&tr=udp%3a%2f%2feddie4.nl%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.open-internet.nl%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=wss%3a%2f%2fwstracker.online"
+    },
+    {
+      "name": "Adobe Illustrator 2025 (v29.5.1.141)",
+      "description": "The industry-standard vector graphics software",
+      "class": "Graphics & Design",
+      "image": "https://cdn-icons-png.flaticon.com/128/5611/5611037.png",
+      "download": "magnet:?xt=urn:btih:f9aeb21ba2806cf1b3a7325af788be2c6c1a27&tr=http%3A%2F%2Fuztracker.net%2Fbt%2Fannounce.php%3Fuk%3DdAQCiK8Euf4qtV3GvOYI&dn=Adobe+Illustrator+2025+%28v29.5.1%29+Multilingual"
+    }
+  ],
+  "Mac": [
+    { "name": "Mac Program 1", "description": "Description for Mac program 1" },
+    { "name": "Mac Program 2", "description": "Description for Mac program 2" }
+  ],
+  "Android Apps": [
+    { "name": "Android App 1", "description": "Description for Android App 1" },
+    { "name": "Android App 2", "description": "Description for Android App 2" }
+  ],
+  "Android Games": [
+    {
+      "name": "Android Game 1",
+      "description": "Description for Android Game 1"
+    },
+    {
+      "name": "Android Game 2",
+      "description": "Description for Android Game 2"
+    }
+  ],
+  "PC Games": [
+    { "name": "PC Game 1", "description": "Description for PC Game 1" },
+    { "name": "PC Game 2", "description": "Description for PC Game 2" }
+  ]
+}
