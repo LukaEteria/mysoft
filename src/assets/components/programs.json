@@ -1,0 +1,42 @@
+{
+    "Windows": [
+      {
+        "name": "Adobe Premiere Pro 2025 (v25.2.3.004)",
+        "description": "Video editing that’s always a cut above",
+        "class" : "Video Editors",
+        "image": "https://cdn-icons-png.flaticon.com/128/5968/5968525.png",
+        "download":"magnet:?xt=urn:btih:7ef0346143bd34811519ecc61bc34c9fe58bab78&tr=http%3A%2F%2Fuztracker.net%2Fbt%2Fannounce.php%3Fuk%3DdAQCiK8Euf4qtV3GvOYI&dn=Adobe+Photoshop+2025+%28v26.6.1%29+Multilingual"
+      },
+      {
+        "name": "Adobe Photoshop 2025 (v26.6.1.7)",
+        "description": "AI Art Generative Fill – Adobe Firefly - Neural Filters",
+        "class" : "Graphics & Design",
+        "image": "https://cdn-icons-png.flaticon.com/128/5968/5968520.png",
+        "download":"magnet:?xt=urn:btih:7ef0346143bd34811519ecc61bc34c9fe58bab78&tr=http%3A%2F%2Fuztracker.net%2Fbt%2Fannounce.php%3Fuk%3DdAQCiK8Euf4qtV3GvOYI&dn=Adobe+Photoshop+2025+%28v26.6.1%29+Multilingual"
+      },
+      {
+        "name": "Office 2013-2024",
+        "description": "For installation and activation of Microsoft Office",
+        "class" : "Tools & Utilities",
+        "image": "https://cdn-icons-png.flaticon.com/128/732/732222.png",
+        "download":"https://s1-filecr.xyz/f3079e25a45e276f?ref=d42e8ed07b58727258f6648f97895962"
+      }
+    ],
+    "Mac": [
+      { "name": "Mac Program 1", "description": "Description for Mac program 1" },
+      { "name": "Mac Program 2", "description": "Description for Mac program 2" }
+    ],
+    "Android Apps": [
+      { "name": "Android App 1", "description": "Description for Android App 1" },
+      { "name": "Android App 2", "description": "Description for Android App 2" }
+    ],
+    "Android Games": [
+      { "name": "Android Game 1", "description": "Description for Android Game 1" },
+      { "name": "Android Game 2", "description": "Description for Android Game 2" }
+    ],
+    "PC Games": [
+      { "name": "PC Game 1", "description": "Description for PC Game 1" },
+      { "name": "PC Game 2", "description": "Description for PC Game 2" }
+    ]
+  }
+  
