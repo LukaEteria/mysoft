@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+.header {
+    width: 100%;
+    height: auto;
+    
+}
+
+
+#header {
+    width: 100%;
+    height: 40px;
+    border-radius:  0 0 15px 15px;
+    background-color: #F15720;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+.menu {
+ width: 100%;
+}
+.menu > ul > li {
+    display: flex;
+    
+}
+
+.menu > ul  {
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.menu > ul > li > a {
+    font-size: 20px;
+    font-family: "Play", sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+
+.menu > ul > li > a:hover::after {
+    width: 100%;
+    
+}
+
+/* hover effect: enlarge + color change */
+.menu > ul > li > a:hover {
+    transform: scale(0.95);
+    color: #000000;
+}
+
+/* optional: change icon color if SVG or colorable */
+.menu > ul > li > a:hover .icon {
+    filter: brightness(1.3);
+}
+
+
+.icon {
+    width: 20px;
+}
+
+
+/* underline effect */
+.menu > ul > li > a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease;
+}
+.menu > ul > li > a.active {
+    color: #000000;
+    
+}
+
+.menu > ul > li > a.active::after {
+    width: 100%;
+    background-color: #000000;
+}
