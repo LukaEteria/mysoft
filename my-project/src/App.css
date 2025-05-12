@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y:hidden ;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  
+  .hood {
+   
+    display: flex;
+    flex-direction: column;
+    padding: 0px 350px;
+  }
+  
+  .hoods {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./assets/project.jpg'); /* დარწმუნდი, რომ project.jpg არის public ფოლდერში */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 350px;
+  }
+  
+
+  
+  .center-loader {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .loader {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .loader:before , .loader:after{
+    content: '';
+    border-radius: 50%;
+    position: absolute;
+    inset: 0;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3) inset;
+  }
+  .loader:after {
+    box-shadow: 0 2px 0 #FF3D00 inset;
+    animation: rotate 2s linear infinite;
+  }
+  
+  @keyframes rotate {
+    0% {  transform: rotate(0)}
+    100% { transform: rotate(360deg)}
+  }
+
+  .name {
+    color: #FF3D00;
+    font-weight: 500;
+    font-size: 40px;
+    font-family: "Play", sans-serif;
+    position: absolute;
+  }
+
+  .choes {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly; /* თანაბრად ანაწილებს ღილაკებს */
+    align-items: center;
+    height: 50px;
+    margin-top: 15px;
+    border-radius: 20px;
+    background-color: #F15720;
+  }
+  
+ 
+.filter-button {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: "Play", sans-serif;
+  font-size: 17px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter-button:hover {
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0.2); /* ჰოვერზე ღილაკის ფონის ცვლილება */
+}
+
+  .divider {
+    width: 1px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.255);
+    
+  }
+
+  .icons {
+    width: 20px;
+  }
+
+  .filter-button.active {
+    background-color: rgba(255, 255, 255, 0.4);
+    
+  }
+  
+
+.main_content {
+  width: 100%;
+  height: 70vh;
+    margin-top: 20px;
+  background: rgba( 74, 144, 226, 0.4 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 13.5px );
+-webkit-backdrop-filter: blur( 13.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+  .SelectedCategory {
+   width: 100%;
+   padding: 15px 20px;
+   display: flex;
+   flex-direction: column;
+   height: auto;
+  }
+
+  .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('./assets/project.jpg'); /* დარწმუნდი, რომ project.jpg არის public ფოლდერში */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  
+ 
+  
+  .selected-wrapper {
+    border-radius: 20px;
+   
+    display: flex
+;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 50px;
+    background: linear-gradient(90deg, #05e6aa, #1cbdf9);
+    justify-content: center;
+    gap: 10px;
+
+  }
+  
+  .selected-icon {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .selected-title {
+    font-family: "Play", sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+  }
+  .main-section {
+    margin-top: 20px;
+    width: 100%;
+    height: 100vh;
+    background-color: #FF3D00;
+    padding: 20px;
+    overflow-y: auto; /* სქროლვის დასამატებლად */
+  }
+  
+  .programs-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .program-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .program-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .program-card h3 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  
+  .program-card p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .program-card button {
+    padding: 10px;
+    background-color: #F15720;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .program-card button:hover {
+    background-color: #D2491A;
+  }
+
+  .spinners {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loaders {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .loaders::before {
+    content: '';
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border-top: 4px solid #FFF;
+    border-right: 4px solid transparent;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    z-index: 0;
+  }
+  
+  .loaders::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border-left: 4px solid #FF3D00;
+    border-bottom: 4px solid transparent;
+    box-sizing: border-box;
+    animation: rotations 0.5s linear infinite reverse;
+    z-index: 0;
+  }
+  
+  .loaders-inner {
+    position: relative;
+    z-index: 1;
+    font-size: 13px;
+    color: white;
+  }
+  
+  @keyframes rotation {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  @keyframes rotations {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+
+  .loaders-inner{
+    position: relative;
+    font-size: 100px;
+    letter-spacing: 2px;
+    overflow: hidden;
+  }
+  .loaders-inner:before {
+    content: "Loading";
+    color: #fff;
+  }
+  .loaders-inner:after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: #ff3d00;
+    border-radius: 50%;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    top: -70px;
+    animation: motion 3s ease-in-out infinite;
+  }
+
+  @keyframes motion {
+    0%, 50%, 100% {
+      transform: translateX(0) scale(1);
+    }
+    25% {
+      transform: translateX(-100px) scale(0.3);
+    }
+    75% {
+      transform: translateX(100px) scale(0.3);
+    }
+  }
+
+  .programs-list {
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px; /* დაშორება ელემენტებს შორის */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .program-item {
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 0 0 calc(24% - 8px); /* 2 ელემენტი სტრიქონზე */
+    background-color: #1c1c1c;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+    height: 35vh;
+  }
+  
+  .program-item h4 {
+    font-family: "Play", sans-serif;
+    margin: 0 0 8px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .program-item p {
+    font-family: "Play", sans-serif;
+    margin: 0;
+    font-size: 14px;
+    color: #ccc;
+  }
+
+  .program-image {
+    margin-top: 10px;
+    width: 90%; /* სურათის სიგანე ცვალებადი */
+    height: auto; /* სურათის სიმაღლე თავად თავის ფასი აქვს */
+    object-fit: cover; /* თუ სურათი არ სრულად ჯდება, ის შევსება მაინც შეძლებს */
+    border-radius: 8px; /* კუთხეების რაუნდირება */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ჩრდილი სურათს */
+    transition: transform 0.3s ease-in-out; /* მყისიერი ეფექტი მასზე */
+  }
+  
+  .program-image:hover {
+    transform: scale(1.05); /* სურათის ზომა ოდნავ გაიზრდება როდესაც მაუსი მიდის */
+  }
+
+  .cssbuttons-io-button {
+    width: 38%;
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 0.8em 1.5em 0.8em 1.2em;
+    color: white;
+    background: #ad5389;
+    background: linear-gradient(
+      0deg,
+      rgba(77, 54, 208, 1) 0%,
+      rgba(132, 116, 254, 1) 100%
+    );
+    border: none;
+    box-shadow: 0 0.7em 1.5em -0.5em #4d36d0be;
+    letter-spacing: 0.05em;
+    border-radius: 20em;
+  }
+  
+  .cssbuttons-io-button svg {
+    margin-right: 8px;
+  }
+  
+  .cssbuttons-io-button:hover {
+    box-shadow: 0 0.5em 1.5em -0.5em #4d36d0be;
+  }
+  
+  .cssbuttons-io-button:active {
+    box-shadow: 0 0.3em 1em -0.5em #4d36d0be;
+  }
+  
+
+
+  .program-infop {
+    font-family: "Play", sans-serif;
+  }
+
+  .downlaods {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
